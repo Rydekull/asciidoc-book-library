@@ -1,0 +1,70 @@
+body {
+  background: #fff;
+}
+div.header {
+  height: 10%;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  border-style: dotted;
+}
+div.categories {
+  height: 5%;
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+span.category {
+  padding: 10px;
+}
+span.category a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+p.top a {
+  margin: auto;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+a.category-link {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+a.book-link {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+div.library {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+ul.shelf {
+  padding: 10px;
+  float: left;
+  list-style: none;
+  width: 100%;
+}
+li.book {
+  float: left;
+  position: relative;
+  width: auto;
+  background: #dfdfdf;
+  border-radius: 10px;
+  width: 100px;
+  height: 140px;
+  padding: 10;
+  margin: 10;
+  margin-left: 2em;
+  text-align: center;
+  vertical-align: middle;
+}
